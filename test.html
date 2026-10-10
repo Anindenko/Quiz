@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Решение теста</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/test.css">
+</head>
+<body>
+
+<header class="header">
+    <section class="container">
+        <picture class="logo">
+            <img src="assets/image/logo.png" alt="Логотип">
+        </picture>
+    </section>
+</header>
+
+<main class="test">
+    <section class="container">
+        <h6 class="test-pre-title" id="pre-title">Тест №1. “JavaScript: Начальный уровень”</h6>
+        <article class="test-progress-bar" id="progress-bar"></article>
+        <article class="test-question">
+            <h1 class="test-question-title" id="title"><span>Вопрос 2: </span>Тут должен быть текст вопроса?</h1>
+            <section class="test-question-options" id="options"></section>
+            <section class="test-actions">
+                <article class="test-previous-action">
+                    <button class="button button-transparent" id="prev" disabled>Назад</button>
+                </article>
+                <article class="test-time">
+                    <span class="test-time-text">Осталось времени:</span>
+                    <span class="test-time-clock" id="timer">59</span>
+                </article>
+                <article class="test-next-action">
+                    <button class="button button-transparent" id="next" disabled>Дальше</button>
+                </article>
+            </section>
+            <section class="pass-question">
+                <a href="javascript:void(0)" id="pass">Пропустить вопрос <img src="assets/image/small-arrow.png" alt="Cтрелочка"></a>
+            </section>
+        </article>
+    </section>
+</main>
+
+<footer class="footer">
+    «АйтилогияQuiz» © Все права защищены / 2022
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/test.js"></script>
+</body>
+</html>

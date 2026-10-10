@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+<header class="header">
+    <section class="container">
+        <picture class="logo">
+            <img src="assets/image/logo.png" alt="Логотип">
+        </picture>
+    </section>
+</header>
+
+<main class="form">
+    <section class="container">
+        <article class="form-content">
+            <h1 class="form-title common-title">Введите свои <span>данные</span></h1>
+            <section class="form-details">
+                <article class="form-group">
+                    <input type="text" class="form-input" id="name" required>
+                    <label for="name" class="form-label">Имя</label>
+                </article>
+                <article class="form-group">
+                    <input type="text" class="form-input" id="last-name" required>
+                    <label for="last-name" class="form-label">Фамилия</label>
+                </article>
+                <article class="form-group">
+                    <input type="text" class="form-input" id="email" required>
+                    <label for="email" class="form-label">Электронная почта</label>
+                </article>
+                <article class="form-agree">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">
+                        Я ознакомлен <a href="#">с правилами сайта</a>
+                    </label>
+                </article>
+            </section>
+            <section class="form-button">
+                <button class="button" id="process" disabled>Перейти к выбору теста</button>
+            </section>
+        </article>
+        <picture class="form-image">
+            <img src="assets/image/Info-image.png" alt="Персонаж">
+        </picture>
+    </section>
+</main>
+
+<footer class="footer">
+    «АйтилогияQuiz» © Все права защищены / 2022
+</footer>
+
+<script src="js/form.js"></script>
+</body>
+</html>
